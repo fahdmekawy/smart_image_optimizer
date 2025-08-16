@@ -1,5 +1,3 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+library smart_image_optimizer;
+
+export 'src/optimizer.dart' show SmartImageOptimizer, ImageFormat;
